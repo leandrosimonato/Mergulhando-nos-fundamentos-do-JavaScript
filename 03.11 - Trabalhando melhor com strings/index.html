@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    const name = 'Leandro'
+    const age = 32
+
+    const sentence = 'Olá, meu nome é ' + name + ' e eu tenho ' + age + ' anos.'
+    const sentence2 = `Olá, meu none é ${name} e eu tenho ${age} anos.`
+    const html = `
+      <ul>
+        <li>
+          ${name}
+        </li>
+        <li>
+          ${age}
+        </li>  
+      </ul>  
+    `
+    const html2 = ' \
+    <ul>\
+        <li>\
+          ${name}\
+        </li>\
+        <li>\
+          ${age}\
+        </li>\   <
+      /ul>\ 
+    '
+
+    console.log(html)
+    console.log(html2)
+    console.log(sentence)
+    console.log(sentence2)
+  </script>
+</body>
+
+</html>
